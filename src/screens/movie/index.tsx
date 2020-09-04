@@ -54,7 +54,7 @@ const Movie: React.FC<INavigation> = ({ route, navigation }) => {
                         title: movie?.title,
                         poster: movie?.poster,
                         year: movie?.year,
-                        imdbID: movie?.imdbID,
+                        imdbID: imdbID,
                     });
                 }
             });
