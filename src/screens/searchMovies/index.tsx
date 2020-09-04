@@ -17,7 +17,6 @@ import { IMovie } from '../../types';
 const SearchMovies: React.FC = () => {
     const [movies, setMovies] = useState<IMovie[]>([]);
     const [favoritesMoviesIds, setFavoritesMoviesIds] = useState<string[]>([]);
-    const [refreshList, setRefreshList] = useState<boolean>(false);
     const [searchTimeout, setSearchTimeout] = useState<NodeJS.Timeout>();
     const [loading, setLoading] = useState<boolean>(false);
     const [movieNotFound, setMovieNotFound] = useState<boolean>(false);
