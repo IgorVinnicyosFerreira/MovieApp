@@ -99,7 +99,7 @@ const Movie: React.FC<INavigation> = ({ route, navigation }) => {
                 </InfoContainer>
 
                 <PlotContainer>
-                    <SectionTitle>Plot Twist</SectionTitle>
+                    <SectionTitle>Enredo</SectionTitle>
                     <SectionText>{movie?.plot}</SectionText>
                     <ActorsContainer>
                         <SectionTitle>Atores</SectionTitle>
